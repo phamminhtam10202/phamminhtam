@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>codeathon2017</title>
-    <link rel="stylesheet" href="/bootstrap-3.3.7-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
 
-    <script type="text/javascript" src="/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -16,26 +16,46 @@
             <h1><center>DANG NHAP BAT BUOC</center></h1><br/>
             <form class="form-horizontal">
               <div class="form-group">
-                <label for="username" class="col-sm-2 control-label">Ten Dang Nhap</label>
-                <div class="col-sm-10">
+                <label for="username" class="col-sm-4 control-label">Ten Dang Nhap</label>
+                <div class="col-sm-8">
                   <input type="text" class="form-control" id="username" placeholder="Ten dang nhap">
                 </div>
               </div>
 
               <div class="form-group">
-                <label for="password" class="col-sm-2 control-label">Mat Khau</label>
-                <div class="col-sm-10">
+                <label for="password" class="col-sm-4 control-label">Mat Khau</label>
+                <div class="col-sm-8">
                   <input type="password" class="form-control" id="password" placeholder="Mat Khau">
                 </div>
               </div>
             </form>
           </div>
-
-
-          <div>
-            Phu Huynh : <input type="checkbox" value="1"/><br/>
-            Hoc Sinh : <input type="checkbox" value="1"/><br/>
-            Gui di :<input class="btn btn-default" type="submit" value="submit"/><br/>
+          <div class="col-sm-8 col-sm-offset-4">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio"> Phu Huynh
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio"> Hoc Sinh
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Sign in</button>
+    </div>
           </div>
           <div>
             <h1>LO TRINH</h1><br/>
