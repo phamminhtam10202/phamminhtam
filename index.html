@@ -5,7 +5,6 @@
     <title>codeathon2017</title>
     <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
-
     <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
   </head>
   <body>
@@ -13,19 +12,18 @@
       <div class="row">
         <div class="col-sm-8">
           <div class="dangnhap">
-            <h1><center>DANG NHAP BAT BUOC</center></h1><br/>
+            <h1><center>ĐĂNG NHẬP BẮT BUỘC</center></h1><br/>
             <form class="form-horizontal">
               <div class="form-group">
-                <label for="username" class="col-sm-4 control-label">Ten Dang Nhap</label>
+                <label for="username" class="col-sm-4 control-label">Tên Đăng Nhập</label>
                 <div class="col-sm-8">
-                  <input type="text" class="form-control" id="username" placeholder="Ten dang nhap">
+                  <input type="text" class="form-control" id="username" placeholder="Tên đăng nhập">
                 </div>
               </div>
-
               <div class="form-group">
-                <label for="password" class="col-sm-4 control-label">Mat Khau</label>
+                <label for="password" class="col-sm-4 control-label">Mật Khẩu</label>
                 <div class="col-sm-8">
-                  <input type="password" class="form-control" id="password" placeholder="Mat Khau">
+                  <input type="password" class="form-control" id="password" placeholder="Mật khẩu">
                 </div>
               </div>
             </form>
@@ -36,7 +34,7 @@
                 <div class="form-group">
                   <div class="radio">
                     <label>
-                      <input type="radio"> Phu Huynh
+                      <input type="checkbox" value="1"> Phụ Huynh
                     </label>
                   </div>
                 </div>
@@ -45,25 +43,39 @@
                 <div class="form-group">
                   <div class="radio">
                     <label>
-                      <input type="radio"> Hoc Sinh
+                      <input type="checkbox" value="1"> Học Sinh
                     </label>
                   </div>
                 </div>
               </div>
             </div>
             </div>
+            <p><div class="form-group">
+              <div class="col-sm-offset-4 col-sm-10">
+                <button type="submit" class="btn btn-default">Đặng Nhập</button><br/>
+              </div></p><br/>
+              <div class="col-sm-offset-4 col-sm-10">
+                <p>Nếu bạn chưa có tài khoản?</p>
+              </div>
             <div class="form-group">
-    <div class="col-sm-offset-4 col-sm-10">
-      <button type="submit" class="btn btn-default">Sign in</button>
-    </div>
-          </div>
-          <div>
-            <h1>LO TRINH</h1><br/>
-            Diem Bat Dau : <input type="ID"/><br/>
-            Diem Den : <input type="password"/><br/>
+              <div class="col-sm-offset-4 col-sm-10">
+                <button type="submit" class="btn btn-default">Đăng Ký</button>
           </div>
         </div>
       </div>
+    </div><br/>
+    <div class="row">
+    <div class="col-sm-8">
+      <h1><p class="cochu"><center>CHỌN MỨC ĐỘ VÀ PHƯƠNG THỨC CẢNH BÁO</center></p></h1>
+      <div class="radio">
+        <label>
+          <input type="radio"> Nhắn tin thông báo cụ thể lộ trình sai lệch
+        </label>
+      <div class="radio">
+        <label>
+          <input type="radio">Nhận cuộc gọi khẩn cấp khi đứa trẻ hồi đáp đang gặp nguy hiểm
+        </label>
     </div>
+  </div>
   </body>
 </html>
